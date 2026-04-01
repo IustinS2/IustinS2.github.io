@@ -6,4 +6,5 @@ date: 2025-01-16
 venue: 'Class.Quant.Grav.'
 paperurl: 'https://arxiv.org/abs/2501.09627'
 category: manuscripts
+authors: 'Tim Adamo, Iustin Surubaru'
 ---
