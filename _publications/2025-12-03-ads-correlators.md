@@ -6,4 +6,5 @@ date: 2025-12-03
 venue: 'JHEP'
 paperurl: 'https://arxiv.org/abs/2512.03677'
 category: manuscripts
+authors: 'Tim Adamo, Iustin Surubaru, Bin Zhu'
 ---
