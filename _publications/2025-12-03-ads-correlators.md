@@ -5,4 +5,5 @@ permalink: /publications/2025-12-03-ads-correlators
 date: 2025-12-03
 venue: 'JHEP'
 paperurl: 'https://arxiv.org/abs/2512.03677'
+category: manuscripts
 ---
