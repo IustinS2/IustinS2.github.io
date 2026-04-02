@@ -107,7 +107,8 @@
 .publication-authors a:hover {
   text-decoration: underline;
 }
-.page__footer-links,
-.page__footer-follow {
+footer,
+.page__footer,
+.page__footer footer {
   display: none !important;
 }
