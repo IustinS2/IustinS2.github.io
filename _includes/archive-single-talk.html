@@ -1,44 +1,14 @@
-{% include base_path %}
-
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-       {{ post.title }}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.type or post.venue or post.location %}
-  <p class="archive__item-excerpt" itemprop="description">
-    {% if post.type %}{{ post.type }}{% endif %}
-    {% if post.venue %}{% if post.type %}, {% endif %}{{ post.venue }}{% endif %}
-    {% if post.location %}{% if post.type or post.venue %}, {% endif %}{{ post.location }}{% endif %}
-  </p>
-{% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+  <article class="archive__item">
+
+    <p class="talk-entry">
+      {{ post.title }}
+
+      {% if post.type %} — {{ post.type }}{% endif %}
+      {% if post.venue %}, {{ post.venue }}{% endif %}
+      {% if post.location %}, {{ post.location }}{% endif %}
+      {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}
+    </p>
+
   </article>
 </div>
