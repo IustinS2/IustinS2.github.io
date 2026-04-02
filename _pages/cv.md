@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-# CV
 
 [See my CV (PDF)](/files/CV Iustin Surubaru.pdf)
 
