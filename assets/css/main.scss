@@ -61,3 +61,22 @@
 .archive__item {
   margin-bottom: 1.2em;
 }
+
+/* Teaching entries: make titles less dominant */
+.page__content .archive__item-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.1em;
+}
+
+/* Hide the second line (we’ll merge it into title) */
+.page__content .archive__item-excerpt {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 0;
+}
+
+/* Reduce spacing between entries */
+.archive__item {
+  margin-bottom: 0.6em;
+}
