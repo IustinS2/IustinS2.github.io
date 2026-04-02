@@ -8,6 +8,9 @@ redirect_from:
 ---
 
 {% include base_path %}
+# CV
+
+[See my CV (PDF)](/files/CV Iustin Surubaru.pdf)
 
 Education
 ======
@@ -21,15 +24,3 @@ Work Experience
   * Rudolf Peierls Centre for Theoretical Physics
   * Duties: Research on gravitational waves production/evolution in stringy inflationary model
   * Supervisor: Prof. Joseph Conlon
-
-Publications
-======
-  See my [Publications page](/publications.html/).
-  
-Talks
-======
-  See my [Talks page](/talks.html/).
-  
-Teaching
-======
-  See my [Teaching page](/teaching.html/).
