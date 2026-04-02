@@ -70,22 +70,26 @@
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.35;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.1em;
 }
 
 /* Authors: slightly smaller and softer */
 .publication-authors {
   font-size: 0.9rem;
   opacity: 0.85;
-  margin-bottom: 0.3em;
+  margin-top: 0;
+  margin-bottom: 0.2em;
 }
 
 /* Download links smaller */
 .archive__item a {
   font-size: 0.9rem;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0.2em;
 }
 
 /* Tight spacing */
 .archive__item {
-  margin-bottom: 0.7em;
+  margin-bottom: 0.8em;
 }
