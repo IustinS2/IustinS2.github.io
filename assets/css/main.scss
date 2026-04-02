@@ -65,16 +65,18 @@
   opacity: 0.85;
 }
 
-.archive__item {
-  margin-bottom: 0.9em;
+.page__content .archive__item .archive__item-title {
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  line-height: 1.35;
+  margin-bottom: 0.2em !important;
 }
 
-.archive__item-title {
-  font-size: 1.15rem !important;
-  font-weight: 500;
-  margin-bottom: 0.3em;
+.page__content .archive__item > p {
+  font-size: 0.85rem !important;
+  margin-bottom: 0.25em !important;
 }
-.archive__item > p {
-  font-size: 0.95rem;
-  margin-bottom: 0.4em;
+
+.page__content .archive__item {
+  margin-bottom: 0.7em !important;
 }
