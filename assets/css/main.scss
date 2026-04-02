@@ -48,3 +48,16 @@
 .archive__item-title a:hover {
   text-decoration: none !important;
 }
+
+.archive__item-title {
+  font-size: 1.4rem !important;
+}
+
+.archive__item-excerpt {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.archive__item {
+  margin-bottom: 1.2em;
+}
