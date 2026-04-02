@@ -28,14 +28,14 @@
     {% endif %}
 
     {% unless post.collection == 'teaching' %}
-  <h2 class="archive__item-title" itemprop="headline">
+  <p class="publication-entry-title">
     {{ post.title }}
-  </h2>
+  </p>
 {% endunless %}
 
     {% if post.authors %}
-      <p>{{ post.authors }}</p>
-    {% endif %}
+  <p class="publication-authors">{{ post.authors }}</p>
+{% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
