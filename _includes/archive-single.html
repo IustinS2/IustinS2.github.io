@@ -27,9 +27,11 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
-      {{ post.title }}
-    </h2>
+    {% unless post.collection == 'teaching' %}
+  <h2 class="archive__item-title" itemprop="headline">
+    {{ post.title }}
+  </h2>
+{% endunless %}
 
     {% if post.authors %}
       <p>{{ post.authors }}</p>
