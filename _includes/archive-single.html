@@ -34,7 +34,12 @@
 {% endunless %}
 
     {% if post.authors %}
-  <p class="publication-authors">{{ post.authors }}</p>
+  {% if post.authors or post.paperurl %}
+  <p class="publication-authors">
+    {% if post.authors %}{{ post.authors }}{% endif %}
+    {% if post.paperurl %} · <a href="{{ post.paperurl }}">arXiv</a>{% endif %}
+  </p>
+{% endif %}
 {% endif %}
     
     {% if post.read_time %}
