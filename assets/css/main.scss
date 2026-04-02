@@ -65,18 +65,27 @@
   opacity: 0.85;
 }
 
-.page__content .archive__item .archive__item-title {
-  font-size: 0.95rem !important;
-  font-weight: 500 !important;
+/* Publication titles: compact CV style */
+.publication-entry-title {
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 1.35;
-  margin-bottom: 0.2em !important;
+  margin-bottom: 0.2em;
 }
 
-.page__content .archive__item > p {
-  font-size: 0.85rem !important;
-  margin-bottom: 0.25em !important;
+/* Authors: slightly smaller and softer */
+.publication-authors {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 0.3em;
 }
 
-.page__content .archive__item {
-  margin-bottom: 0.7em !important;
+/* Download links smaller */
+.archive__item a {
+  font-size: 0.9rem;
+}
+
+/* Tight spacing */
+.archive__item {
+  margin-bottom: 0.7em;
 }
