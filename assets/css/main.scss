@@ -49,34 +49,22 @@
   text-decoration: none !important;
 }
 
-.archive__item-title {
-  font-size: 1.4rem !important;
-}
-
 .archive__item-excerpt {
   font-size: 0.95rem;
   opacity: 0.85;
 }
 
-.archive__item {
-  margin-bottom: 1.2em;
+.teaching-entry {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
 }
 
-/* Teaching entries: make titles less dominant */
-.page__content .archive__item-title {
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin-bottom: 0.1em;
+.teaching-entry i {
+  opacity: 0.85;
 }
 
-/* Hide the second line (we’ll merge it into title) */
-.page__content .archive__item-excerpt {
-  font-size: 0.9rem;
-  opacity: 0.8;
-  margin-top: 0;
-}
-
-/* Reduce spacing between entries */
 .archive__item {
   margin-bottom: 0.6em;
 }
