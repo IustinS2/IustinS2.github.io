@@ -93,3 +93,17 @@
 .archive__item {
   margin-bottom: 0.8em;
 }
+
+.publication-links {
+  font-size: 0.9rem;
+  margin-top: 0;
+}
+
+.publication-authors a {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.publication-authors a:hover {
+  text-decoration: underline;
+}
