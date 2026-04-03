@@ -2,8 +2,8 @@
   <article class="archive__item">
 
     <p class="talk-entry">
-      {% if post.url and post.url != "" %}
-        <a href="{{ post.url }}" class="talk-title-link">
+      {% if post.talkurl%}
+        <a href="{{ post.talkurl }}" class="talk-title-link">
            {{ post.title }}
         </a>
       {% else %}
