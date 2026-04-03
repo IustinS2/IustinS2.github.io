@@ -2,7 +2,13 @@
   <article class="archive__item">
 
     <p class="talk-entry">
-      <span class="talk-title">{{ post.title }}</span>
+      {% if post.url %}
+        <a href="{{ post.url }}" class="talk-title-link">
+           {{ post.title }}
+        </a>
+      {% else %}
+        <span class="talk-title">{{ post.title }}</span>
+      {% endif %}
 
       {% if post.venue %} - {{ post.venue }}{% endif %}
       {% if post.location %}, {{ post.location }}{% endif %}
