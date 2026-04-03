@@ -30,6 +30,7 @@
     {% unless post.collection == 'teaching' %}
   <p class="publication-entry-title">
     {{ post.title }}
+    {% if post.note %} <span class="publication-note">({{ post.note }})</span>{% endif %}
   </p>
 {% endunless %}
 
