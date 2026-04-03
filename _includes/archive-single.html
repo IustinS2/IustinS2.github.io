@@ -40,9 +40,6 @@
     {% if post.paperurl %} · <a href="{{ post.paperurl }}">arXiv</a>{% endif %}
   </p>
 {% endif %}
-    {% if post.note %}
-  <p class="publication-note">{{ post.note }}</p>
-{% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
