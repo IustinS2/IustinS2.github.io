@@ -128,13 +128,15 @@ footer,
 .talk-title {
   font-weight: 600;
   font-size: 1.05rem;
+  color: inherit;
 }
 .talk-title-link {
   font-weight: 600;
   font-size: 1.05rem;
-  text-decoration: none;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 .talk-title-link:hover {
-  color: #9ad1d4;
+  color: #9ad1d4 !important;
 }
