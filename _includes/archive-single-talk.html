@@ -2,7 +2,17 @@
   <article class="archive__item">
 
     <p class="talk-entry">
-  TEST
+  {% if post.talkurl %}
+    <a href="{{ post.talkurl }}" class="talk-title-link">
+      {{ post.title }}
+    </a>
+  {% else %}
+    <span class="talk-title">{{ post.title }}</span>
+  {% endif %}
+
+  {% if post.venue %} - {{ post.venue }}{% endif %}
+  {% if post.location %}, {{ post.location }}{% endif %}
+  {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}
 </p>
 
   </article>
