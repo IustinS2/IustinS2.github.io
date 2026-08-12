@@ -16,3 +16,5 @@ My research focuses on scattering amplitudes and holography, with an emphasis on
 I study asymptotic chiral algebra structures arising in celestial holography and their relation to scattering amplitudes, as well as the connection between Carrollian correlators and the flat space limit of AdS correlators. 
 
 In a different direction, I investigate perturbative aspects of black-hole scattering in five dimensions through the classical limit of higher-spin amplitudes.
+
+Motivated by research and open problems in AI alignment, I have also been looking into the mathematical aspects of reasoning in neural networks through a mechanistic interpretability lens.
