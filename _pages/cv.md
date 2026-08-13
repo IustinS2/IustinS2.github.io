@@ -14,6 +14,8 @@ redirect_from:
 Education
 ======
 * PhD in Mathematical Physics, Edinburgh University, 2027 (expected)
+  * Thesis: Twistor Methods in Holography
+  * Advisor: Dr. Tim Adamo
 * MsC in Mathematical Physics, Oxford University, 2023
   * Thesis: Generalized Global Symmetries
   * Advisor: Dr. Andrei Constantin
