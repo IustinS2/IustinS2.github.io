@@ -25,3 +25,7 @@ Work Experience
   * Rudolf Peierls Centre for Theoretical Physics
   * Research on gravitational waves production/evolution in stringy inflationary model
   * Supervisor: Prof. Joseph Conlon
+ 
+* Autumn 2026: Iliad fellowship
+  * LISA, London
+  * Research on AI alignment
