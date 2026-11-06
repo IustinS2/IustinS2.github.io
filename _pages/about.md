@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year PhD student in Mathematical Physics at the University of Edinburgh, supervised by Tim Adamo.
+I am a fourth-year PhD student in Mathematical Physics at the University of Edinburgh, supervised by Tim Adamo.
 
 My research focuses on scattering amplitudes and holography, with an emphasis on flat space holography and twistor methods.
 
